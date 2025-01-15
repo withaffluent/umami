@@ -77,7 +77,7 @@ async function checkV1Tables() {
       process.exit(1);
     }
   } catch (e) {
-    // Ignore
+    console.log('Error checking for v1 tables:', e);
   }
 }
 
